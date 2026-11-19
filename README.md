@@ -10,8 +10,10 @@ Dự án nghiên cứu thực nghiệm nhằm tìm kiếm giá trị ngưỡng *
 
 ## 1. Hai Thuật Toán Lõi (Giữ Nguyên Tên Gốc Bài Giảng)
 
-### `Insertionsort.java`:
+### [`src/main/java/algorithms/Insertionsort.java`](src/main/java/algorithms/Insertionsort.java):
 ```java
+package algorithms;
+
 public class Insertionsort {
     public static void sort(Comparable[] a) {
         sort(a, 0, a.length - 1);
@@ -39,8 +41,10 @@ public class Insertionsort {
 }
 ```
 
-### `Mergesort.java` (Cải tiến CUTOFF):
+### [`src/main/java/algorithms/Mergesort.java`](src/main/java/algorithms/Mergesort.java) (Cải tiến CUTOFF):
 ```java
+package algorithms;
+
 public class Mergesort {
     public static final int DEFAULT_CUTOFF = 10;
 
