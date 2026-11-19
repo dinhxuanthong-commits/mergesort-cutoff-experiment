@@ -1,0 +1,24 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IDEs ###
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+venv/
+.env/
+
+### Temporary Logs ###
+*.log
